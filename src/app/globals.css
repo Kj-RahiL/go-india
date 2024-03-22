@@ -16,6 +16,13 @@
   }
 }
 
+
+.nav-link:active
+ {
+  font-weight: bold; 
+  background-color: black; 
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
