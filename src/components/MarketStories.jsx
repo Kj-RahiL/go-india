@@ -4,14 +4,15 @@ import Image from 'next/image';
 
 const MarketStories = () => {
     return (
-        <div id='#discussionForum'>
+        <div id='marketStories'>
             {
                 market.map((item, index) => (
-                    <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div key={index} className="max-w-sm rounded overflow-hidden shadow-lg mt-5">
                         <Image
+                        className='w-full h-36'
                             src={item.image}
-                            width={300}
-                            height={200}
+                            width={100}
+                            height={50}
                             alt="Picture"
                         />
 
